@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST xmlns:MM="http://api.mediamind.com/V1/DataContracts" version="2.0">
+   <Ad id="15201617">
+      <InLine>
+         <AdSystem><![CDATA[MediaMind]]></AdSystem>
+         <AdTitle><![CDATA[Preroll_Ariel_Ambrosia_WEBTV_201511_Preroll]]></AdTitle>
+         <Description><![CDATA[Preroll_Ariel_Ambrosia_WEBTV_201511_Preroll]]></Description>
+         <Impression id="Impression"><![CDATA[http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=riis&pl=VAST&optOut=0&pos=3889&c=24&ai=31601732&pluid=0&ord=193919012&dg=4269083&sdg=7340785&ta=-1&sessionid=5928498270988511995&pcp=&vurl=]]></Impression>
+         <Creatives>
+            <Creative id="31601732" AdID="31601732" sequence="1">
+               <Linear>
+                  <Duration>00:00:20</Duration>
+                  <TrackingEvents>
+                     <Tracking event="creativeView"><![CDATA[http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=31601732%7E%7E0%5ECreativeView.Linear.141159778%7E0%7E0%7E1%7E0%7E0%7E141159778%7E0&pos=3889&ebRandom=193919012&dg=4269083&ta=-1&sessionid=5928498270988511995]]></Tracking>
+                     <Tracking event="creativeView"><![CDATA[http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=31601732%7E%7E0%5EebAdStart%7E0%7E0%7E1%7E0%7E1%7E141159778%7E0&pos=3889&ebRandom=193919012&dg=4269083&ta=-1&sessionid=5928498270988511995]]></Tracking>
+                     <Tracking event="start"><![CDATA[http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=31601732%7E%7E0%5EebVideoStarted%7E0%7E0%7E1%7E0%7E1%7E141159778%7E0&pos=3889&ebRandom=193919012&dg=4269083&ta=-1&sessionid=5928498270988511995]]></Tracking>
+                     <Tracking event="firstQuartile"><![CDATA[http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=31601732%7E%7E0%5Eeb25Per_Played%7E0%7E0%7E1%7E0%7E1%7E141159778%7E0&pos=3889&ebRandom=193919012&dg=4269083&ta=-1&sessionid=5928498270988511995]]></Tracking>
+                     <Tracking event="midpoint"><![CDATA[http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=31601732%7E%7E0%5Eeb50Per_Played%7E0%7E0%7E1%7E0%7E1%7E141159778%7E0&pos=3889&ebRandom=193919012&dg=4269083&ta=-1&sessionid=5928498270988511995]]></Tracking>
+                     <Tracking event="thirdQuartile"><![CDATA[http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=31601732%7E%7E0%5Eeb75Per_Played%7E0%7E0%7E1%7E0%7E1%7E141159778%7E0&pos=3889&ebRandom=193919012&dg=4269083&ta=-1&sessionid=5928498270988511995]]></Tracking>
+                     <Tracking event="complete"><![CDATA[http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=31601732%7E%7E0%5EebVideoFullPlay%7E0%7E0%7E1%7E0%7E1%7E141159778%7E0&pos=3889&ebRandom=193919012&dg=4269083&ta=-1&sessionid=5928498270988511995]]></Tracking>
+                     <Tracking event="mute"><![CDATA[http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=31601732%7E%7E0%5EebVideoMute%7E0%7E0%7E1%7E1%7E1%7E141159778%7E0&pos=3889&ebRandom=193919012&dg=4269083&ta=-1&sessionid=5928498270988511995]]></Tracking>
+                     <Tracking event="unmute"><![CDATA[http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=31601732%7E%7E0%5EebVideoUnmute%7E0%7E0%7E1%7E1%7E1%7E141159778%7E0&pos=3889&ebRandom=193919012&dg=4269083&ta=-1&sessionid=5928498270988511995]]></Tracking>
+                     <Tracking event="pause"><![CDATA[http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=31601732%7E%7E0%5EebVideoPause%7E0%7E0%7E1%7E1%7E1%7E141159778%7E0&pos=3889&ebRandom=193919012&dg=4269083&ta=-1&sessionid=5928498270988511995]]></Tracking>
+                     <Tracking event="fullscreen"><![CDATA[http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=31601732%7E%7E0%5EebFSStart%7E0%7E0%7E1%7E1%7E1%7E141159778%7E0&pos=3889&ebRandom=193919012&dg=4269083&ta=-1&sessionid=5928498270988511995]]></Tracking>
+                  </TrackingEvents>
+                  <VideoClicks>
+                     <ClickThrough><![CDATA[http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=31601732%7E%7E0%5EClick.Linear.141159778%7E0%7E1%7E1%7E0%7E0%7E141159778%7E0&pos=3889&ebRandom=193919012&dg=4269083&ta=-1&sessionid=5928498270988511995&rtu=$$https://www.paramim.com.pt/tag/ariel?utm_source=HMFoodRecipes&utm_medium=Video&utm_term=rich&utm_content=Preroll&utm_campaign=Ariel_Ambrosia_WEBTV_Nov15$$]]></ClickThrough>
+                  </VideoClicks>
+                  <MediaFiles>
+                     <MediaFile id="141159778" height="720" width="1280" bitrate="3937" type="video/mp4" delivery="progressive" maintainAspectRatio="true" scalable="true"><![CDATA[http://ds.serving-sys.com/BurstingRes/Site-50092/Type-16/925cf2e5-e1e4-4d77-84e2-cc04fe64c25d.mp4]]></MediaFile>
+                  </MediaFiles>
+               </Linear>
+            </Creative>
+            <Creative id="31601732" AdID="31601732" sequence="1">
+               <CompanionAds />
+            </Creative>
+         </Creatives>
+      </InLine>
+   </Ad>
+</VAST>

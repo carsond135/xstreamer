@@ -1,0 +1,60 @@
+@extends('admincp.master')
+@section('title',"Add A New Video Ad")
+@section ('subtitle',"Advertisement Management")
+@section('content')
+<div class="row ">
+		<div class="modal-dialog col-md-12" style="width:100% !important">
+		    @if(session('msg'))<h4 class="alert alert-success">{{ session('msg') }}</h4>@endif
+			@if(session('msgerror'))<div class="alert alert-danger">{{session('msgerror')}}</div>@endif
+       		<div class="panel panel-primary">
+               	<div class="panel-heading">Add a New Video Ad</div>
+	                <div class="panel-body">
+				<form action="{{URL('admincp/in-player-media-ads')}}" class="form-horizontal" enctype="multipart/form-data" method="post" accept-charset="utf-8">
+				
+			
+						<div class="form-group">
+							<div class="col-md-2"><label class="lable-control">Ad Name</label></div>
+							<div class="col-md-10"><input class="form-control" type="text" name="title" value="" placeholder=""></div>
+						</div>
+						
+
+						<div class="form-group">
+							<div class="col-md-2"><label class="lable-control">Description</label></div>
+							<div class="col-md-10"><input class="form-control" type="text" name="descr" value="" placeholder=""></div>
+						</div>
+
+						<div class="form-group">
+							<div class="col-md-2"><label class="lable-control">Ad URL</label></div>
+							<div class="col-md-10"><input class="form-control" type="text" name="adv_url" value="" placeholder=""></div>
+						</div>
+
+						<div class="form-group">
+							<div class="col-md-2"><label class="lable-control">Upload Media File</label></div>
+							<div class="col-md-10"><input  class="form-control" type="file" name="media" ><small>(*.jpg, *.swf, *.flv, *.mp4)</small></div>
+						</div>
+						<div class="form-group">
+							<div class="col-md-2"><label class="lable-control">Status</label></div>
+							<div class="col-md-10">
+								<select class="form-control" name="status">
+									<option value="1">Active</option>
+									<option value="0">Inactive</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-group">
+							
+								<input type="hidden" name="id" value="">
+								<input type="hidden" name="_token" value="{{ csrf_token() }}">
+							
+							<center><button type="submit" value="Publish" class="btn btn-info pull-right">Save</button></center>
+						</div>
+
+			</form>
+		</article><!-- end of post new article -->
+		
+		
+		
+		<div class="spacer"></div>
+		
+
+@endsection
